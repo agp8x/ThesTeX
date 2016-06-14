@@ -36,23 +36,11 @@ Using make, there are different targets available:
 * latex: only pdflatex
 * bibtex
 * index
-* nomecl (nomenclature)
+* nomecl -(ature)
 * fast: pdflatex, bibtex, pdflatex
 * clean: remove all temporary and auxiliary files, keep pdf
 * wipe: clean + remove pdf
-
-### ant
-
-Using make, there are different targets available:
-
-* full: just like the command for texmaker (default)
-* latex: only pdflatex
-* bibtex
-* index
-* nomenclature
-* fast: pdflatex, bibtex, pdflatex
-* clean: remove all temporary and auxiliary files, keep pdf
-* wipe: clean + remove pdf
-* help
-* init: increments buildnumber in build.number
-* reset: delets build.number
+* dot: build dot-graphs from dot/ to image/
+* spell: spellcheck all content-files
+* spell1 F=<file/pattern>: spellcheck file or file-pattern `make spell1 F=1-*`
+* todo: find all TODO's
